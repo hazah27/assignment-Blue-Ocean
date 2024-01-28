@@ -1,0 +1,170 @@
+/* ----------login page part---------- */
+.main 
+{
+    height: 100vh;
+    background: url('../image/background_adminpanel.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-box
+{
+    width: 500px;
+    height: 330px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.login-box input::placeholder
+{
+    color: white;
+}
+
+.login-box input
+{
+    color: white;
+}
+
+.main .btn
+{
+    background: #dabb86;
+    border: none;
+    outline: none;
+}
+
+.main .btn:hover
+{
+    background: #ffcc3c;
+    border: none;
+    outline: none;
+}
+
+/* ----------navbar page part---------- */
+.color1
+{
+    background-color: #825f4c;
+    /* background-color: #825631; */
+}
+
+/* ----------home page part---------- */
+.home 
+{
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('../image/background_adminpanel.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .box-container
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.home .box-container .box
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    background: #825f4c;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.home .no-decoration {
+    text-decoration: none;
+}
+
+.home .box-container .box:hover
+{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    transform: scale(1.03);
+}
+
+@media (max-width: 1000px) 
+{
+    .home .box-container
+    {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+/* ----------city page part---------- */
+.city
+{
+    /* background: linear-gradient(45deg,yellow, turquoise); */
+    height: 150vh;
+    background: linear-gradient(180deg,#eee5c1, #dabb86)no-repeat; 
+    background-size: cover;
+    background-position: center;   
+}
+
+.city .no-decoration {
+    text-decoration: none;
+}
+
+.table thead tr th
+{
+    background: #825f4c;
+    color: white;
+}
+
+
+
+/* ----------lane page part---------- */
+.lane-transmission
+{
+    /* background: linear-gradient(45deg,yellow, turquoise); */
+    height: 150vh;
+    background: linear-gradient(180deg,#eee5c1, #dabb86)no-repeat; 
+    background-size: cover;
+    background-position: center;   
+}
+
+.lane-transmission .no-decoration {
+    text-decoration: none;
+}
+
+.table-wrapper
+{
+    max-height: 600px;
+    overflow-y: scroll;
+    
+}
+
+th
+{
+    position: sticky;
+    top: 0px;
+
+}
+
+.outer-wrapper
+{
+    max-height: 600px;
+}
+
+
+/* ----------service page part---------- */
+/* .service-available
+{
+    height: 150vh;
+    background: linear-gradient(180deg,#eee5c1, #dabb86)no-repeat; 
+    background-size: cover;
+    background-position: center;   
+} */
+
+.service-available .no-decoration {
+    text-decoration: none;
+}
+
+.service-available th, td
+{
+    border: 1px solid #825f4c;
+}

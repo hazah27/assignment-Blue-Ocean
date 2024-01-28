@@ -1,0 +1,228 @@
+/* ----------home page part---------- */
+.search-railtime 
+{
+    height: 100vh;
+    background: url('../image/background_js.jpg') no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.color1
+{
+    /* background-color: #c2915e; */
+    background-color: #086086;
+}
+
+.color2
+{
+    /* background-color: #c2915e; */
+    background-color: #629ab2;
+}
+
+/* .exchange
+{
+    background: #38d4f4;
+    border-radius: 250px;
+    height: 35px;
+    width: 35px;
+} */
+
+.search-box
+{
+    color: white;
+    width: 100%;
+}
+
+.home-tab 
+{
+    min-width: 100px;
+    padding: 10px 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 22px;
+    color: white;
+    background: #0000002e;
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+    margin-right: 3px;
+    
+}
+
+.formbackground
+{
+    background: #0000002e;
+    margin-left: .2px;
+    table-layout: auto
+    
+}
+
+/* ----------train available page part---------- */
+.service-ready
+{   
+    background: whitesmoke;
+}
+
+.service-ready .left .right
+{
+    width: 80%;
+    position: relative;
+    height: 100px;
+}
+
+.service-ready .left
+{
+    width: 20%;
+}
+
+.service-ready h5
+{
+    color: #748b93;
+}
+
+.color3
+{
+    color: #748b93;
+}
+
+.color4
+{
+    color: #000080;
+}
+
+.service-ready .depart
+{
+    background: #000080;
+    min-height: 60px;
+    color: white;
+    width: 100%;
+    display:table;
+}
+
+.service-ready .depart-label-1
+{
+    width: 100px;
+    padding: 10px 15px;
+    display: table-cell;
+    border-left-width: 6px;
+}
+
+.service-ready .depart-label-2
+{
+    width: 1120px;
+    padding: 10px 15px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 22px;
+}
+
+.service-ready .table-scroll
+{
+    width: 100%;
+    overflow-x: auto;
+    /* background: #000080; */
+}
+
+.left-border
+{
+    border-left: 6px solid #000080;
+}
+
+.service-ready .return
+{
+    /* background: #00BFFF; */
+    background: #38d4f4;
+    min-height: 60px;
+    color: white;
+    width: 100%;
+    display: table;
+}
+
+.left-border2
+{
+    border-left: 6px solid #38d4f4;
+}
+
+.btn-color4
+{
+    background: #000080;
+    color: white;
+}
+
+.btn-color4:hover
+{
+    background: #000080;
+    color: white;
+}
+
+.closeBtn
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.selectionText
+{
+    position: absolute;
+    right: 35px;
+}
+
+.seat-align td
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.seat-align label
+{
+    display:block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 10px 10px;
+    background: whitesmoke;
+    border-radius: 5px;
+    color: black;
+}
+
+.seat-align label:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 0px 2px #748b93;
+}
+
+.seat-align input[type=checkbox]
+{
+    position: absolute;
+}
+
+.seat-align input[type=checkbox]:checked + label 
+{
+    background-color: #748b93;
+}
+
+label[for="space"]
+{
+    display: none;
+}
+
+.seats
+{
+    border-radius: 10px;
+}
+
+.coach .btn:hover
+{
+    cursor: pointer;
+    background: whitesmoke;
+    box-shadow: 0 0 0px 2px whitesmoke;
+}
+
+.icon
+{
+    border-radius: 8px;
+}
